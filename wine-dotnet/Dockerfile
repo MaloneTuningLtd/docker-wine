@@ -1,4 +1,4 @@
-FROM maloneweb/wine-base:latest
+FROM maloneweb/docker-wine-base:latest
 
 ARG DEBIAN_FRONTEND="noninteractive"
 ARG WINE_MONO_VERSION="4.7.3"
